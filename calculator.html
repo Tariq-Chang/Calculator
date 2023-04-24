@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div id="output">Output</div>
+            <input type="text" inputmode="number" name="input" id="input" placeholder="Input here" autofocus />
+            <div class="row__container">
+                <div class="row row1">
+                    <button value="%" class="op mod" style="color: cyan">&#37;</button>
+                    <button value="sqrt" class="op squareRoot" style="color: cyan">&radic;</button>
+                    <button value="negate" class="op negate" style="color: cyan">&#177;</button>
+                    <button value="/" class="op divide" style="color: rgb(212, 122, 122);">&divide;</button>
+                </div>
+                <div class="row row2">
+                    <button value="1">1</button>
+                    <button value="2">2</button>
+                    <button value="3">3</button>
+                    <button value="*" class="op multiply" style="color: rgb(212, 122, 122);">&times;</button>
+                </div>
+                <div class="row row3">
+                    <button value="4">4</button>
+                    <button value="5">5</button>
+                    <button value="6">6</button>
+                    <button value="-" class="op substract" style="color: rgb(212, 122, 122);">&minus;</button>
+                </div>
+                <div class="row row4">
+                    <button value="7">7</button>
+                    <button value="8">8</button>
+                    <button value="9">9</button>
+                    <button value="+" class="op add" style="color: rgb(212, 122, 122);">&plus;</button>
+                </div>
+                <div class="row row5">
+                    <button value="reset" class="op reset">
+                        <img src="https://flaticons.net/icon.php?slug_category=application&slug_icon=command-reset"
+                            alt="" width="14">
+                    </button>
+                    <button value="0">0</button>
+                    <button value=".">&period;</button>
+                    <button value="=" class="op equals" style="color: rgb(212, 122, 122);">&equals;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
